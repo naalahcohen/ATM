@@ -2,7 +2,7 @@ import java.util.HashMap;
 public class atmclass {
 	HashMap <Integer, Double> hashie = new HashMap <Integer,Double> ();
 	public atmclass (){
-		
+		hashie = new HashMap (); 
 	}
 	public void openAccount (int accountNumber) {
 		hashie.put(accountNumber, 0.0);
